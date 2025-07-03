@@ -5,6 +5,6 @@ public class testik {
     @Test
     public void Conflict() {
         int i = 3;
-        Assertions.assertTrue(i > 2);
+        Assertions.assertTrue(i > 3);
     }
 }
