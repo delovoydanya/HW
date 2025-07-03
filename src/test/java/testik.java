@@ -4,7 +4,9 @@ import org.junit.jupiter.api.Test;
 public class testik {
     @Test
     public void Conflict() {
+
         System.out.println("ауе");
-        Assertions.assertTrue(3 > 1);
+        int i = 2;
+        Assertions.assertTrue(i > 2);
     }
 }
